@@ -67,6 +67,13 @@ Creates a generic spell that can be cast.
 **description**: string, A short description of the spell.
 
 
+function Spell(name, cost, description){
+  this.name = name;
+  this.cost = cost;
+  this.description = description;
+}
+
+
 ## getDetails()
 Returns a string of all of the spell's details.
 The format doesn't matter, as long as it contains the spell name, cost, and description.
